@@ -1,0 +1,13 @@
+The input is a number of lines with records from two tables Employee and Department. A tuple from Employee table will look like:
+    Employee [Person_Name] [SSN]
+A tuple from Department table will look like:
+    Department [SSN] [Department_Name]
+
+The required output is to print the JOIN of the two tables Employee and Department, in the format shown. The code for the MapReduce class, parts related to IO etc. has already been provided. However, the mapper and reducer functions are incomplete. Your task is to fill up the mapper and reducer functions appropriately, such that the program works, and outputs the JOIN of the two tables, in lexicographical order.
+
+Input Format
+A list of comma separated records from the tables Employee and Department. We have already written the input handling code to read in this data.
+
+Output Format
+Again, the output handling part has already been provided in the template code. The output contains the JOINed records in the following format arranged lexicographically -
+    ([SSN] [Employee_Name] [Department_Name])
