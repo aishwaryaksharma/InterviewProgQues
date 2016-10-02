@@ -1,0 +1,18 @@
+The input is a number of test cases with two matrices each. A single test case will look like:
+    [#Rows_Matrix_1] [#Columns_Matrix_1]
+    [Row_1_Matrix_1]
+    .
+    .
+    [Row_N_Matrix_1]
+    [#Rows_Matrix_2] [#Columns_Matrix_2]
+    [Row_1_Matrix_2]
+    .
+    .
+    [Row_N_Matrix_2]
+The required output is to print the product of the two matrices in the format shown. The code for the MapReduce class, parts related to IO etc. has already been provided. However, the mapper and reducer functions are incomplete. Your task is to fill up the mapper and reducer functions appropriately, such that the program works, and outputs the product of the two matrices, in row-wise manner.
+
+Input Format
+First line of the input will contain the number of test cases, for each test case, there will be two matrices. For each matrix, the first line will contain the number of rows and columns and from the second line, row*column number of elements of matrix will be given. We have already written the input handling code to read in this data.
+
+Output Format
+Again, the output handling part has already been provided in the template code. The output contains the product matrix arranged in a row-wise manner.
